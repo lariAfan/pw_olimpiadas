@@ -1,0 +1,41 @@
+body {
+	font-family:Arial, sans-serif;	
+}
+
+.header {
+	float:left;
+	border:1px solid red;
+	width:100%;	
+}
+
+.logo {
+	float:left;
+	border:1px solid blue;
+}
+
+.logo img {
+	width:110px;	
+}
+
+.search {
+	float:right;
+	border:1px solid orange;	
+}
+
+.navbar {
+	float: left;
+	width: 100%;
+	border:1px solid green;
+}
+
+.navbar ul li {
+	list-style-type: none;
+	margin: 0 5px;
+	display:inline;	
+}
+
+.slider {
+	border:1px solid pink;
+	width:100%;
+	font-size: 30px;
+}
