@@ -1,40 +1,149 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="files/style.css" />
-<script type="text/javascript" src="files/jquery-1.8.0.js"></script>
-<title>Título bonitinho :P</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" type="text/css" href="files/style.css" />
+  <script type="text/javascript" src="files/jquery-1.8.0.js"></script>
+  <title>OlimpOn</title>
 </head>
 <body>
-	<div class="header">
-		<div class="links">
-			<a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Tumblr</a>			
-		</div>
-		<div class="logo">
-			<a href="#">
-				<img src="http://www.colourbox.com/preview/4399802-257007-cup-with-laurel-wreath.jpg" />
-			</a>
-		</div>
-		<div class="search">
-			Busca: <input type="text" />
-		</div>
-		<div class="navbar">
-			<ul>
-				<li>Item 1</li>
-				<li>Item 2</li>
-				<li>Item 3</li>
-				<li>Item 4</li>
-			</ul>
-		</div>	
-	</div>
-	<div class="content">
-		<div class="slider">
-			SLIDER
-		</div>
-		<div class="news"></div>
-		<div class="column"></div>
-	</div>
-	<div class="footer"></div>
+    <div id="background">
+      <div id="container">
+        <div id="header">
+          <a id="logo" title="OlimpOn" href="index.html">
+            <img title="OlimpON" src="images/logo.png" />
+          </a>
+          <div id="social">
+            <a title="Facebook" href="http://www.facebook.com">
+              <img title="Facebook" src="images/facebook.png" />
+            </a>
+            <a title="Twitter" href="http://www.twitter.com">
+              <img title="Twitter" src="images/twitter.png" />
+            </a>
+            <a title="Google Plus" href="http://plus.google.com">
+              <img title="Google Plus" src="images/google.png" />
+            </a>
+          </div>
+        </div>
+        <div id="navbar">
+          <ul>
+            <li><a class="selected" title="Home" href="index.html">Home</a></li>
+            <li><a title="Notícias" href="noticias.html">Notícias</a></li>
+            <li><a title="Medalhas" href="medalhas.html">Quadro de Medalhas</a></li>
+            <li><a title="Galeria" href="galeria.html">Galeria de Fotos</a></li>
+            <li><a title="Newsletter" href="newsletter.html">Newsletter</a></li>
+          </ul>
+          
+          <div id="search">
+            <input type="text" />
+            <a title="Buacar" href="busca.html">Buscar</a>
+          </div>
+        </div>
+        <div id="content">
+          <ul id="slider">
+            <li><img title="" src="" /></li>
+            <li><img title="" src="" /></li>
+            <li><img title="" src="" /></li>
+          </ul>
+          
+          <!-- Parte "dinâmica" -->
+          
+          <div id="left" class="news">
+            <h1>Últimas Notícias</h1>
+            <div class="box left">
+              <h2>Título da Notícia</h2>
+              <img title="Noticia 1" src="images/noticia-exemplo.png" />
+              <p>Lorem ipsum dolor sit amet, consectetuer 
+adipiscing elit. Aenean commodo ligula eget 
+dolor. Aenean massa. Cum sociis natoque </p>
+              <a class="blue-link" title="Ler Mais" href="noticia1.html">Ler Mais »</a>
+            </div>
+            <div class="box">
+              <h2>Título da Notícia</h2>
+              <img title="Noticia 1" src="images/noticia-exemplo.png" />
+              <p>Lorem ipsum dolor sit amet, consectetuer 
+adipiscing elit. Aenean commodo ligula eget 
+dolor. Aenean massa. Cum sociis natoque </p>
+              <a class="blue-link" title="Ler Mais" href="noticia1.html">Ler Mais »</a>
+            </div>
+            <div class="box left">
+              <h2>Título da Notícia</h2>
+              <img title="Noticia 1" src="images/noticia-exemplo.png" />
+              <p>Lorem ipsum dolor sit amet, consectetuer 
+adipiscing elit. Aenean commodo ligula eget 
+dolor. Aenean massa. Cum sociis natoque </p>
+              <a class="blue-link" title="Ler Mais" href="noticia1.html">Ler Mais »</a>
+            </div>
+            <div class="box">
+              <h2>Título da Notícia</h2>
+              <img title="Noticia 1" src="images/noticia-exemplo.png" />
+              <p>Lorem ipsum dolor sit amet, consectetuer 
+adipiscing elit. Aenean commodo ligula eget 
+dolor. Aenean massa. Cum sociis natoque </p>
+              <a class="blue-link" title="Ler Mais" href="noticia1.html">Ler Mais »</a>
+            </div>
+          </div>
+          
+          <!-- Fim Parte "dinâmica" -->
+          
+          <div id="right">
+            <h1>Newsletter</h1>
+            
+            <div class="box newsletter">
+              <p>Assine nossa Newsletter e fique por dentro das últimas notícias!</p>
+              <a class="blue-link" title="Assinar Newsletter" href="newsletter.html">Assinar Newsletter</a>
+            </div>
+            
+            <h1 class="quadro">Quadro de Medalhas</h1> 
+
+            <div class="box quadro-medalhas">
+              <table>
+                <tr class="even">
+                  <td class="none"></td>
+                  <td><img title="Ouro" src="images/ouro.png" /></td>
+                  <td><img title="Prata" src="images/prata.png" /></td>
+                  <td><img title="Bronze" src="images/bronze.png" /></td>
+                </tr>
+                <tr class="odd">
+                  <th>Brasil</th>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+                <tr class="even">
+                  <th>Brasil</th>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+                <tr class="odd">
+                  <th>Brasil</th>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+                <tr class="even">
+                  <th>Brasil</th>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+              </table>
+            </div>
+            
+          </div>
+        </div>
+        
+      <div id="footer">
+        <a title="Home" href="index.html">Home</a> |
+        <a title="Notícias" href="noticias.html">Notícias</a> |
+        <a title="Medalhas" href="medalhas.html">Quadro de Medalhas</a> |
+        <a title="Galeria" href="galeria.html">Galeria de Fotos</a> |
+        <a title="Newsletter" href="newsletter.html">Newsletter</a>
+        <p>Larisse Garuti, Thaís Teixeira. Todos os Direitos Reservados.</p>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>

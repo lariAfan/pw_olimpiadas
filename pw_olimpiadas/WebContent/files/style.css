@@ -1,41 +1,244 @@
+/* Tags Redefinition */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-	font-family:Arial, sans-serif;	
+	font-family: Arial, sans-serif;
+  background-color: #e9e9e9;
+  font-size: 12px;
+  color: #565656;
 }
 
-.header {
-	float:left;
-	border:1px solid red;
-	width:100%;	
+img {
+  border: 0;
 }
 
-.logo {
-	float:left;
-	border:1px solid blue;
+h1 {
+  color: #FFFFFF;
+  font-size: 18px;
+  height: 43px;
+  line-height: 43px;
+  background-color: #f28346;
+  padding-left: 15px;
+  font-weight: normal;
+  margin-bottom: 15px;
 }
 
-.logo img {
-	width:110px;	
+a.blue-link {
+  background-color: #05b1f1;
+  color: #FFFFFF;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  float: left;
 }
 
-.search {
-	float:right;
-	border:1px solid orange;	
+/* General */
+
+div#background {
+  background: #05b1f1 url(../images/background.png) repeat-y top center;
+  width: 100%;
+  height: 544px;
 }
 
-.navbar {
-	float: left;
-	width: 100%;
-	border:1px solid green;
+div#container {
+  width: 980px;
+  margin: auto;
 }
 
-.navbar ul li {
-	list-style-type: none;
-	margin: 0 5px;
-	display:inline;	
+div#header {
+  height: 142px;
 }
 
-.slider {
-	border:1px solid pink;
-	width:100%;
-	font-size: 30px;
+div#header a#logo  {
+  display: block;
+  margin: 33px 0 0 3px;
+  float: left;
+  width: 258px;
+  height: 89px;
+}
+
+div#header div#social {
+  float: right;
+  margin-top: 93px;
+}
+
+div#header div#social  a {
+  float: left;
+}
+
+div#navbar {
+  width: 980px;
+  height: 62px;
+  float: left;
+  margin-bottom: 3px;
+  background: url(../images/bg-menu.png) no-repeat;
+}
+
+div#navbar  ul {
+  list-style: none;
+  float: left;
+  margin: 15px 0 0 15px;
+}
+
+div#navbar ul li {
+  float: left;
+  line-height: 32px;
+}
+
+div#navbar ul li a {
+  text-decoration: none;
+  color: #565656;
+  font-size: 14px;
+  display: block;
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+div#navbar ul li a.selected {
+  color: #FFFFFF;
+  background-color: #04b1f1;
+}
+
+div#search {
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+div#search input {
+  border: 0;
+  width: 201px;
+  float: left;
+  padding: 6px 10px 6px 10px;
+  color: #565656;
+}
+
+div#search a {
+  width: 66px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #02205f;
+  font-weight: bold;
+  height: 28px;
+  float: left;
+}
+
+div#content {
+  background-color: #FFFFFF;
+  padding: 15px;
+  clear: both;
+  float: right;
+  margin-top: 3px;
+
+}
+
+ul#slider {
+  float: left;
+  list-style: none;
+}
+
+div#left {
+  float: left;
+  width: 579px;
+  padding-right: 20px;
+  border-right: solid 1px #e9e9e9;
+}
+
+div#right {
+  float: right;
+  width: 330px;
+  margin-left: 20px;
+}
+
+div#right div.box{
+  background-color: #ebebeb;
+  padding: 15px;
+  float: left;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+div#right div.box a.blue-link{
+  float: right;
+  margin-top: 10px;
+}
+
+div#right div.box.newsletter {
+  margin-bottom: 20px;
+}
+
+div#right h1.quadro {
+  clear: both;
+}
+
+div#right div.quadro-medalhas table {
+  width: 100%;
+  text-align: center;
+}
+
+div#right div.quadro-medalhas table tr.odd {
+  background-color: #dadada;
+}
+
+div#right div.quadro-medalhas table tr.even {
+   background-color: #e6e6e6;
+}
+
+div#right div.quadro-medalhas table tr td {
+  line-height: 30px;
+}
+
+div#right div.quadro-medalhas table tr td.none {
+  background-color: #EBEBEB;
+}
+
+div#footer {
+  float: left;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: #05b1f1;
+  color: #FFFFFF;
+}
+
+div#footer a {
+  color: #FFFFFF;
+}
+
+div#footer p {
+  margin-top: 10px;
+}
+
+/* News Page */
+
+div.news  div.box {
+  background-color: #ebebeb;
+  padding: 15px;
+  float: left;
+  width: 252px;
+  margin-bottom: 15px;
+}
+
+div.news  div.box  h2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+div.news  div.box p {
+  margin: 10px 0 10px 0;
+}
+
+div.news  div.box.left {
+  margin-right: 15px;
 }
