@@ -203,6 +203,36 @@ div#right div.quadro-medalhas table tr td.none {
   background-color: #EBEBEB;
 }
 
+div.inner-news h2 {
+	margin-bottom: 20px;
+	font-size:15px;	
+}
+
+div.inner-news img {
+	border-right: 15px solid white;
+	border-bottom: 12px solid white;
+	float:left;	
+}
+
+div.inner-news p {
+	margin-bottom:15px;
+	line-height:20px;
+		
+}
+
+div.inner-news p.font {
+	font-style:italic;		
+}
+
+div.inner-news p.font a {
+	color: #02205F;
+	text-decoration:none;	
+}
+
+div.inner-news p.font a:hover {
+	text-decoration:underline;	
+}
+
 div#footer {
   float: left;
   width: 100%;
