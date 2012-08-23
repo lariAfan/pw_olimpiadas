@@ -194,12 +194,41 @@ div#right div.quadro-medalhas table tr.even {
    background-color: #e6e6e6;
 }
 
+div#right div.quadro-medalhas table tr.main {
+   background-color: #A2E599;
+}
+
 div#right div.quadro-medalhas table tr td {
   line-height: 30px;
 }
 
 div#right div.quadro-medalhas table tr td.none {
   background-color: #EBEBEB;
+}
+
+div.medalhas div.quadro-medalhas table {
+  width: 100%;
+  text-align: center;
+}
+
+div.medalhas div.quadro-medalhas table tr.odd {
+  background-color: #dadada;
+}
+
+div.medalhas div.quadro-medalhas table tr.even {
+   background-color: #e6e6e6;
+}
+
+div.medalhas div.quadro-medalhas table tr.main {
+   background-color: #A2E599;
+}
+
+div.medalhas div.quadro-medalhas table tr td {
+  line-height: 30px;
+}
+
+div.medalhas div.quadro-medalhas table tr td.none {
+  background-color: #FFF;
 }
 
 div.inner-news h2 {

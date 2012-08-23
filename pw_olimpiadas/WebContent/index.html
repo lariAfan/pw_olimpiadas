@@ -1,189 +1,285 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <link rel="stylesheet" type="text/css" href="files/style.css">
-  <link rel="stylesheet" type="text/css" href="files/slider-style.css">
-  <script type="text/javascript" src="files/jquery-1.8.0.js"></script>
-  <script type="text/javascript" src="files/script.js"></script>
-  <script type="text/javascript" src="files/jquery-ui-1.8.23.custom.min.js"></script>
-  <title>OlimpOn</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="files/style.css">
+<link rel="stylesheet" type="text/css" href="files/slider-style.css">
+<script type="text/javascript" src="files/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="files/script.js"></script>
+<script type="text/javascript"
+	src="files/jquery-ui-1.8.23.custom.min.js"></script>
+<title>OlimpOn</title>
 </head>
 <body>
-    <div id="background">
-      <div id="container">
-        <div id="header">
-          <a id="logo" title="OlimpOn" href="index.html">
-            <img alt="OlimpON" title="OlimpON" src="images/logo.png" />
-          </a>
-          <div id="social">
-            <a title="Facebook" href="http://www.facebook.com">
-              <img alt="Facebook" title="Facebook" src="images/facebook.png" />
-            </a>
-            <a title="Twitter" href="http://www.twitter.com">
-              <img alt="Twitter" title="Twitter" src="images/twitter.png" />
-            </a>
-            <a title="Google Plus" href="http://plus.google.com">
-              <img alt="Google Plus" title="Google Plus" src="images/google.png" />
-            </a>
-          </div>
-        </div>
-        <div id="navbar">
-          <ul>
-            <li><a class="selected" title="Home" href="index.html">Home</a></li>
-            <li><a title="Notícias" href="noticias.html">Notícias</a></li>
-            <li><a title="Medalhas" href="medalhas.html">Quadro de Medalhas</a></li>
-            <li><a title="Galeria" href="galeria.html">Galeria de Fotos</a></li>
-            <li><a title="Newsletter" href="newsletter.html">Newsletter</a></li>
-          </ul>
-          
-          <div id="search">
-          	<form name="busca" action="busca.html" method="post">
-	            <input type="text" name="word" />
-	            <a title="Buscar" href="busca.html">Buscar</a>
-            </form>
-          </div>
-        </div>
-        <div id="content">
-        <div id="featured">
-          <ul id="slider" class="ui-tabs-nav">
-            <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"><img title="Usain Bolt" alt="Usain Bolt" src="images/image1-small-slider.jpg" /><span>Usain Bolt: O jamaicano jamais perdeu uma prova olímpica.</span></a></li>
-            <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"><img title="Michael Phelps" alt="Michael Phelps" src="images/image2-small-slider.jpg" /><span>Londres 2012 presenciou a despedida do mito Michael Phelps.</span></a></li>
-            <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"><img title="Missy Franklin" alt="Missy Franklin" src="images/image3-small-slider.jpg" /><span>Missy Franklin: A norte-americana merece ouro.</span></a></li>
-            <li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="#fragment-4"><img title="Gabrielle Douglas" alt="Gabrielle Douglas" src="images/image4-small-slider.jpg" /><span>A ginasta Gabrielle Douglas encantou a plateia britânica no solo.</span></a></li>
-          </ul>
-          
-          <!-- First Content -->
-	    <div id="fragment-1" class="ui-tabs-panel" style="">
-			<img src="images/image1-slider.jpg" title="Usain Bolt" alt="Usain Bolt" />
-			 <div class="info" >
-				<h2><a href="javascript:void(0)" >Usain Bolt: O jamaicano jamais perdeu uma prova olímpica.</a></h2>
-				<p>Foram três ouros em Londres 2012, somando-se aos outros três conquistados em Pequim 2008. O jamaicano jamais perdeu uma prova olímpica. A torcida é para manter o ritmo até 2016 e continuar fazendo história no Rio de Janeiro.</p>
-			 </div>
-	    </div>
+	<div id="background">
+		<div id="container">
+			<div id="header">
+				<a id="logo" title="OlimpOn" href="index.html"> <img
+					alt="OlimpON" title="OlimpON" src="images/logo.png" />
+				</a>
+				<div id="social">
+					<a title="Facebook" href="http://www.facebook.com"> <img
+						alt="Facebook" title="Facebook" src="images/facebook.png" />
+					</a> <a title="Twitter" href="http://www.twitter.com"> <img
+						alt="Twitter" title="Twitter" src="images/twitter.png" />
+					</a> <a title="Google Plus" href="http://plus.google.com"> <img
+						alt="Google Plus" title="Google Plus" src="images/google.png" />
+					</a>
+				</div>
+			</div>
+			<div id="navbar">
+				<ul>
+					<li><a class="selected" title="Home" href="index.html">Home</a></li>
+					<li><a title="Notícias" href="noticias.html">Notícias</a></li>
+					<li><a title="Medalhas" href="medalhas.html">Quadro de
+							Medalhas</a></li>
+					<li><a title="Galeria" href="galeria.html">Galeria de
+							Fotos</a></li>
+					<li><a title="Newsletter" href="newsletter.html">Newsletter</a></li>
+				</ul>
 
-	    <!-- Second Content -->
-	    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
-			<img src="images/image2-slider.jpg" title="Michael Phelps" alt="Michael Phelps" />
-			 <div class="info" >
-				<h2><a href="javascript:void(0)" >Londres 2012 presenciou a despedida do mito Michael Phelps.</a></h2>
-				<p>Foram quatro medalhas de ouro, chegando a 22 na carreira e se tornando no maior atleta da história dos Jogos Olímpicos. Para tristeza dos brasileiros, o mito se aposentou e só virá ao Rio, em 2016, como torcedor.</p>
-			 </div>
-	    </div>
+				<div id="search">
+					<form name="busca" action="busca.html" method="post">
+						<input type="text" name="word" /> <a title="Buscar"
+							href="busca.html">Buscar</a>
+					</form>
+				</div>
+			</div>
+			<div id="content">
+				<div id="featured">
+					<ul id="slider" class="ui-tabs-nav">
+						<li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a
+							href="#fragment-1"><img title="Usain Bolt" alt="Usain Bolt"
+								src="images/image1-small-slider.jpg" /><span>Usain Bolt:
+									O jamaicano jamais perdeu uma prova olímpica.</span></a></li>
+						<li class="ui-tabs-nav-item" id="nav-fragment-2"><a
+							href="#fragment-2"><img title="Michael Phelps"
+								alt="Michael Phelps" src="images/image2-small-slider.jpg" /><span>Londres
+									2012 presenciou a despedida do mito Michael Phelps.</span></a></li>
+						<li class="ui-tabs-nav-item" id="nav-fragment-3"><a
+							href="#fragment-3"><img title="Missy Franklin"
+								alt="Missy Franklin" src="images/image3-small-slider.jpg" /><span>Missy
+									Franklin: A norte-americana merece ouro.</span></a></li>
+						<li class="ui-tabs-nav-item" id="nav-fragment-4"><a
+							href="#fragment-4"><img title="Gabrielle Douglas"
+								alt="Gabrielle Douglas" src="images/image4-small-slider.jpg" /><span>A
+									ginasta Gabrielle Douglas encantou a plateia britânica no solo.</span></a></li>
+					</ul>
 
-	    <!-- Third Content -->
-	    <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
-			<img src="images/image3-slider.jpg" title="Missy Franklin" alt="Missy Franklin" />
-			 <div class="info" >
-				<h2><a href="javascript:void(0)" >Missy Franklin: A norte-americana merece ouro.</a></h2>
-				<p>Foram quatro títulos em Londres 2012, além de um bronze, aos 17 anos. A expectativa é em aumentar a coleção de medalhas no Rio 2016.</p>
-       </div>
-	    </div>
+					<!-- First Content -->
+					<div id="fragment-1" class="ui-tabs-panel" style="">
+						<img src="images/image1-slider.jpg" title="Usain Bolt"
+							alt="Usain Bolt" />
+						<div class="info">
+							<h2>
+								<a href="javascript:void(0)">Usain Bolt: O jamaicano jamais
+									perdeu uma prova olímpica.</a>
+							</h2>
+							<p>Foram três ouros em Londres 2012, somando-se aos outros
+								três conquistados em Pequim 2008. O jamaicano jamais perdeu uma
+								prova olímpica. A torcida é para manter o ritmo até 2016 e
+								continuar fazendo história no Rio de Janeiro.</p>
+						</div>
+					</div>
 
-	    <!-- Fourth Content -->
-	    <div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style="">
-			<img src="images/image4-slider.jpg" title="Gabrielle Douglas" alt="Gabrielle Douglas" />
-			 <div class="info" >
-				<h2><a href="javascript:void(0)" >A ginasta Gabrielle Douglas encantou a plateia britânica no solo.</a></h2>
-				<p>A norte-americana encantou a plateia britânica no solo, sendo ouro por equipes e no individual. Tornou-se na primeira ginasta negra a subir ao lugar mais alto do pódio na história dos Jogos Olímpicos.</p>
-       </div>
-	    </div>
-        </div>
-        
-          
-          <!-- Parte "dinâmica" -->
-          
-          <div id="left" class="news">
-            <h1>Últimas Notícias</h1>
-            <div class="box left">
-              <h2>Bandeira olímpica é levada ao Cristo e recepcionada por moradores locais</h2>
-              <img title="Cristo" alt="Cristo" src="images/cristo.jpg" />
-              <p>Símbolo chegou à cidade no dia 13 de agosto, após os Jogos de Londres </p>
-              <a class="blue-link" title="Ler Mais" href="noticia1.html">Ler Mais »</a>
-            </div>
-            <div class="box">
-              <h2>Judô confirma expectativas e bate recorde de medalhas nos Jogos de Londres 2012</h2>
-              <img title="Judô" alt="Judô" src="images/judo.jpg" />
-              <p>Judô confirma expectativas e bate recorde de medalhas nos Jogos de Londres 2012 </p>
-              <a class="blue-link" title="Ler Mais" href="noticia2.html">Ler Mais »</a>
-            </div>
-            <div class="box left">
-              <h2>Relembre as dez maiores decepções brasileiras nas Olimpíadas 2012</h2>
-              <img title="Atletas Favoritos" alt="Atletas Favoritos" src="images/chatiada.jpg" />
-              <p>Favoritos em suas modalidades, atletas favoritos do País caíram antes da 
-              hora nos Jogos de Londres </p>
-              <a class="blue-link" title="Ler Mais" href="noticia3.html">Ler Mais »</a>
-            </div>
-            <div class="box">
-              <h2>COB envia carta à Aiba e pede revisão da luta que deu prata a Esquiva</h2>
-              <img title="Esquiva" alt="Esquiva" src="images/esquiva.jpg" />
-              <p>Árbitro da final teria reconhecido erro ao punir brasileiro no último round. 
-              Japonês recebeu dois pontos pela marcação ... </p>
-              <a class="blue-link" title="Ler Mais" href="noticia4.html">Ler Mais »</a>
-            </div>
+					<!-- Second Content -->
+					<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
+						<img src="images/image2-slider.jpg" title="Michael Phelps"
+							alt="Michael Phelps" />
+						<div class="info">
+							<h2>
+								<a href="javascript:void(0)">Londres 2012 presenciou a
+									despedida do mito Michael Phelps.</a>
+							</h2>
+							<p>Foram quatro medalhas de ouro, chegando a 22 na carreira e
+								se tornando no maior atleta da história dos Jogos Olímpicos.
+								Para tristeza dos brasileiros, o mito se aposentou e só virá ao
+								Rio, em 2016, como torcedor.</p>
+						</div>
+					</div>
 
-          </div>
-          
-          <!-- Fim Parte "dinâmica" -->
-          
-          <div id="right">
-            <h1>Newsletter</h1>
-            
-            <div class="box newsletter">
-              <p>Assine nossa Newsletter e fique por dentro das últimas notícias!</p>
-              <a class="blue-link" title="Assinar Newsletter" href="newsletter.html">Assinar Newsletter</a>
-            </div>
-            
-            <h1 class="quadro">Quadro de Medalhas</h1> 
+					<!-- Third Content -->
+					<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
+						<img src="images/image3-slider.jpg" title="Missy Franklin"
+							alt="Missy Franklin" />
+						<div class="info">
+							<h2>
+								<a href="javascript:void(0)">Missy Franklin: A
+									norte-americana merece ouro.</a>
+							</h2>
+							<p>Foram quatro títulos em Londres 2012, além de um bronze,
+								aos 17 anos. A expectativa é em aumentar a coleção de medalhas
+								no Rio 2016.</p>
+						</div>
+					</div>
 
-            <div class="box quadro-medalhas">
-              <table>
-                <tr class="even">
-                  <td class="none"></td>
-                  <td><img alt="Ouro" title="Ouro" src="images/ouro.png" /></td>
-                  <td><img alt="Prata" title="Prata" src="images/prata.png" /></td>
-                  <td><img alt="Bronze" title="Bronze" src="images/bronze.png" /></td>
-                </tr>
-                <tr class="odd">
-                  <th>Estados Unidos</th>
-                  <td>46</td>
-                  <td>29</td>
-                  <td>29</td>
-                </tr>
-                <tr class="even">
-                  <th>China</th>
-                  <td>38</td>
-                  <td>27</td>
-                  <td>23</td>
-                </tr>
-                <tr class="odd">
-                  <th>Grã-Bretanha</th>
-                  <td>29</td>
-                  <td>17</td>
-                  <td>19</td>
-                </tr>
-                <tr class="even">
-                  <th>Brasil</th>
-                  <td>3</td>
-                  <td>5</td>
-                  <td>9</td>
-                </tr>
-              </table>
-            </div>
-            
-          </div>
-        </div>
-        
-      <div id="footer">
-        <a title="Home" href="index.html">Home</a> |
-        <a title="Notícias" href="noticias.html">Notícias</a> |
-        <a title="Medalhas" href="medalhas.html">Quadro de Medalhas</a> |
-        <a title="Galeria" href="galeria.html">Galeria de Fotos</a> |
-        <a title="Newsletter" href="newsletter.html">Newsletter</a>
-        <p>Larisse Garuti, Thaís Teixeira. Todos os Direitos Reservados.</p>
-      </div>
-    </div>
-  </div>
+					<!-- Fourth Content -->
+					<div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style="">
+						<img src="images/image4-slider.jpg" title="Gabrielle Douglas"
+							alt="Gabrielle Douglas" />
+						<div class="info">
+							<h2>
+								<a href="javascript:void(0)">A ginasta Gabrielle Douglas
+									encantou a plateia britânica no solo.</a>
+							</h2>
+							<p>A norte-americana encantou a plateia britânica no solo,
+								sendo ouro por equipes e no individual. Tornou-se na primeira
+								ginasta negra a subir ao lugar mais alto do pódio na história
+								dos Jogos Olímpicos.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Parte "dinâmica" -->
+
+				<div id="left" class="news">
+					<h1>Últimas Notícias</h1>
+					<div class="box left">
+						<h2>Bandeira olímpica é levada ao Cristo e recepcionada por
+							moradores locais</h2>
+						<img title="Cristo" alt="Cristo" src="images/cristo.jpg" />
+						<p>Símbolo chegou à cidade no dia 13 de agosto, após os Jogos
+							de Londres</p>
+						<a class="blue-link" title="Ler Mais" href="noticia1.html">Ler
+							Mais »</a>
+					</div>
+					<div class="box">
+						<h2>Judô confirma expectativas e bate recorde de medalhas nos
+							Jogos de Londres 2012</h2>
+						<img title="Judô" alt="Judô" src="images/judo.jpg" />
+						<p>Judô confirma expectativas e bate recorde de medalhas nos
+							Jogos de Londres 2012</p>
+						<a class="blue-link" title="Ler Mais" href="noticia2.html">Ler
+							Mais »</a>
+					</div>
+					<div class="box left">
+						<h2>Relembre as dez maiores decepções brasileiras nas
+							Olimpíadas 2012</h2>
+						<img title="Atletas Favoritos" alt="Atletas Favoritos"
+							src="images/chatiada.jpg" />
+						<p>Favoritos em suas modalidades, atletas favoritos do País
+							caíram antes da hora nos Jogos de Londres</p>
+						<a class="blue-link" title="Ler Mais" href="noticia3.html">Ler
+							Mais »</a>
+					</div>
+					<div class="box">
+						<h2>COB envia carta à Aiba e pede revisão da luta que deu
+							prata a Esquiva</h2>
+						<img title="Esquiva" alt="Esquiva" src="images/esquiva.jpg" />
+						<p>Árbitro da final teria reconhecido erro ao punir brasileiro
+							no último round. Japonês recebeu dois pontos pela marcação ...</p>
+						<a class="blue-link" title="Ler Mais" href="noticia4.html">Ler
+							Mais »</a>
+					</div>
+
+				</div>
+
+				<!-- Fim Parte "dinâmica" -->
+
+				<div id="right">
+					<h1>Newsletter</h1>
+
+					<div class="box newsletter">
+						<p>Assine nossa Newsletter e fique por dentro das últimas
+							notícias!</p>
+						<a class="blue-link" title="Assinar Newsletter"
+							href="newsletter.html">Assinar Newsletter</a>
+					</div>
+
+					<h1 class="quadro">Quadro de Medalhas</h1>
+
+					<div class="box quadro-medalhas">
+						<table>
+							<tr class="even">
+								<td class="none"></td>
+								<td><img alt="Ouro" title="Ouro" src="images/ouro.png" /></td>
+								<td><img alt="Prata" title="Prata" src="images/prata.png" /></td>
+								<td><img alt="Bronze" title="Bronze"
+									src="images/bronze.png" /></td>
+							</tr>
+							<tr class="odd">
+								<th>EUA</th>
+								<td>46</td>
+								<td>29</td>
+								<td>29</td>
+							</tr>
+							<tr class="even">
+								<th>China</th>
+								<td>38</td>
+								<td>27</td>
+								<td>23</td>
+							</tr>
+							<tr class="odd">
+								<th>Grã-Bretanha</th>
+								<td>29</td>
+								<td>17</td>
+								<td>19</td>
+							</tr>
+							<tr class="even">
+								<th>Rússia</th>
+								<td>24</td>
+								<td>26</td>
+								<td>32</td>
+							</tr>
+							<tr class="odd">
+								<th>Coreia do Sul</th>
+								<td>13</td>
+								<td>8</td>
+								<td>7</td>
+							</tr>
+							<tr class="even">
+								<th>Alemanha</th>
+								<td>11</td>
+								<td>19</td>
+								<td>14</td>
+							</tr>
+							<tr class="odd">
+								<th>França</th>
+								<td>11</td>
+								<td>11</td>
+								<td>12</td>
+							</tr>
+							<tr class="even">
+								<th>Itália</th>
+								<td>8</td>
+								<td>9</td>
+								<td>11</td>
+							</tr>
+							<tr class="odd">
+								<th>Hungria</th>
+								<td>8</td>
+								<td>4</td>
+								<td>5</td>
+							</tr>
+							<tr class="even">
+								<th>Austrália</th>
+								<td>7</td>
+								<td>16</td>
+								<td>12</td>
+							</tr>
+							<tr class="main">
+								<th>Brasil</th>
+								<td>3</td>
+								<td>5</td>
+								<td>9</td>
+							</tr>
+						</table>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="footer">
+				<a title="Home" href="index.html">Home</a> | <a title="Notícias"
+					href="noticias.html">Notícias</a> | <a title="Medalhas"
+					href="medalhas.html">Quadro de Medalhas</a> | <a title="Galeria"
+					href="galeria.html">Galeria de Fotos</a> | <a title="Newsletter"
+					href="newsletter.html">Newsletter</a>
+				<p>Larisse Garuti, Thaís Teixeira. Todos os Direitos Reservados.</p>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
