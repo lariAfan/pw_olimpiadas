@@ -212,6 +212,7 @@ div.inner-news img {
 	border-right: 15px solid white;
 	border-bottom: 12px solid white;
 	float:left;	
+	max-width:250px;
 }
 
 div.inner-news p {
