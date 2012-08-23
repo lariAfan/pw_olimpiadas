@@ -19,10 +19,9 @@ img {
 h1 {
   color: #FFFFFF;
   font-size: 18px;
-  height: 43px;
-  line-height: 43px;
+  line-height: 24px;
   background-color: #f28346;
-  padding-left: 15px;
+  padding: 8px 0 8px 15px;
   font-weight: normal;
   margin-bottom: 15px;
 }
