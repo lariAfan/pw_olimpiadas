@@ -319,3 +319,92 @@ div#fotos div.foto img {
 	height:138px;
 	width:200px;
 }
+/* Newsletter */
+
+form#newsletter-form table {
+  width: 490px;
+  margin: 15px auto 0 auto;
+}
+
+form#newsletter-form table tr th {
+  text-align: right;
+  padding-right: 5px;
+  color: #565656;
+}
+
+form#newsletter-form table tr td {
+  padding: 5px 0 5px 0;
+}
+
+form#newsletter-form table tr th.align-top {
+  padding-top: 7px;
+}
+
+form#newsletter-form table tr td input,
+form#newsletter-form table tr td textarea {
+  border: solid 1px #DADADA;
+  padding: 4px;
+  color: #565656;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  width: 350px;
+}
+
+form#newsletter-form table tr td.radios input {
+  border: none;
+  width: auto;
+}
+
+form#newsletter-form table tr td.data input {
+  width: 80px;
+}
+
+form#newsletter-form table tr td textarea {
+  height: 100px;
+}
+
+form#newsletter-form td.button input {
+  background-color: #05B1F1;
+  color: #FFFFFF;
+  display: block;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 70px;
+  cursor: pointer;
+  float: left;
+  margin-left: 268px;
+}
+
+p.required-fields {
+  font-size: 10px;
+  font-style: italic;
+  margin: 10px 0 10px 0;
+}
+
+div#error {
+  border: solid 1px #ff7174;
+  color: #ff272c;
+  background-color: #ffd9da;
+  font-weight: bold;
+  padding: 10px;
+  display: none;
+}
+
+div#success {
+  margin-top: 10px;
+  border: solid 1px #7edb77;
+  color: #2fbb25;
+  background-color: #ddfeda;
+  font-weight: bold;
+  padding: 10px;
+  display: none;
+}
+
+div#error label {
+  display: block;
+  line-height: 25px;
+}

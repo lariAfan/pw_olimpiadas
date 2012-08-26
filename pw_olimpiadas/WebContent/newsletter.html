@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" type="text/css" href="files/style.css">
+  <script type="text/javascript" src="files/jquery-1.8.0.js"></script>
+  <script type="text/javascript" src="files/jquery-validate.js"></script>
+  <script type="text/javascript" src="files/jquery.maskedinput-1.3.min.js"></script>
+  <script type="text/javascript" src="files/script.js"></script>
+  <title>OlimpOn</title>
+</head>
+<body>
+    <div id="background">
+      <div id="container">
+        <div id="header">
+          <a id="logo" title="OlimpOn" href="index.html">
+            <img alt="OlimpON" title="OlimpON" src="images/logo.png" />
+          </a>
+          <div id="social">
+            <a title="Facebook" href="http://www.facebook.com">
+              <img alt="Facebook" title="Facebook" src="images/facebook.png" />
+            </a>
+            <a title="Twitter" href="http://www.twitter.com">
+              <img alt="Twitter" title="Twitter" src="images/twitter.png" />
+            </a>
+            <a title="Google Plus" href="http://plus.google.com">
+              <img alt="Google Plus" title="Google Plus" src="images/google.png" />
+            </a>
+          </div>
+        </div>
+        <div id="navbar">
+          <ul>
+            <li><a class="selected" title="Home" href="index.html">Home</a></li>
+            <li><a title="Notícias" href="noticias.html">Notícias</a></li>
+            <li><a title="Medalhas" href="medalhas.html">Quadro de Medalhas</a></li>
+            <li><a title="Galeria" href="galeria.html">Galeria de Fotos</a></li>
+            <li><a title="Newsletter" href="newsletter.html">Newsletter</a></li>
+          </ul>
+          
+          <div id="search">
+          	<form name="busca" action="busca.html" method="post">
+	            <input type="text" name="word" />
+	            <a title="Buscar" href="busca.html">Buscar</a>
+            </form>
+          </div>
+        </div>
+        <div id="content">
+          
+          <!-- Parte "dinâmica" -->
+          
+          <div id="left" class="newsletter">
+            <h1>Newsletter</h1>
+            
+            <p>Preencha o formulário abaixo para assinar nossa Newsletter e ficar por dentro de todas as novidades das Olimpíadas!</p>
+            
+            <p class="required-fields">Os campos marcados com * são de preenchimento obrigatório.</p>
+            
+            <div id="error"></div>     
+
+            <div id="success">Seus dados foram enviados com sucesso! Logo você receberá nossa Newsletter!</div>             
+            
+            <form id="newsletter-form" method="POST" action="newsletter.html">
+              <table>
+                <tr>
+                  <th><label for="txtNome">Nome*:</label></th>
+                  <td><input type="text" id="txtNome" name="campoNome" /></td>
+                </tr>
+                <tr>
+                  <th><label>Sexo*:</label></th>
+                  <td class="radios">
+                      <input type="radio" checked="checked" id="rdFeminino" name="rdSexo" /> Feminino &nbsp;
+                      <input type="radio" id="rdMasculino" name="rdSexo" /> Masculino
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="txtData">Data de Nascimento*:</label></th>
+                  <td class="data"><input maxlength="10" type="text" id="txtData" name="campoData" /><span> xx/xx/xxxx</span></td>
+                </tr>
+                <tr>
+                  <th><label for="txtEmail">E-mail*:</label></th>
+                  <td><input type="text" id="txtEmail" name="campoEmail"/></td>
+                </tr>
+                <tr>
+                  <th valign="top" class="align-top"><label for="txaMensagem">Deixe sua opnião sobre o nosso site:</label></th>
+                  <td><textarea cols="20" rows="20" id="txaMensagem" name="campoMensagem"></textarea></td>
+                </tr>
+                <tr>
+                  <td class="button" colspan="2"><input type="submit" value="Enviar" /></td>
+                </tr>
+              </table>
+            </form>
+
+          </div>
+          
+          <!-- Fim Parte "dinâmica" -->
+          
+          <div id="right">
+            <h1>Newsletter</h1>
+            
+            <div class="box newsletter">
+              <p>Assine nossa Newsletter e fique por dentro das últimas notícias!</p>
+              <a class="blue-link" title="Assinar Newsletter" href="newsletter.html">Assinar Newsletter</a>
+            </div>
+            
+            <h1 class="quadro">Quadro de Medalhas</h1> 
+
+            <div class="box quadro-medalhas">
+              <table>
+                <tr class="even">
+                  <td class="none"></td>
+                  <td><img alt="Ouro" title="Ouro" src="images/ouro.png" /></td>
+                  <td><img alt="Prata" title="Prata" src="images/prata.png" /></td>
+                  <td><img alt="Bronze" title="Bronze" src="images/bronze.png" /></td>
+                </tr>
+                <tr class="odd">
+                  <th>Estados Unidos</th>
+                  <td>46</td>
+                  <td>29</td>
+                  <td>29</td>
+                </tr>
+                <tr class="even">
+                  <th>China</th>
+                  <td>38</td>
+                  <td>27</td>
+                  <td>23</td>
+                </tr>
+                <tr class="odd">
+                  <th>Grã-Bretanha</th>
+                  <td>29</td>
+                  <td>17</td>
+                  <td>19</td>
+                </tr>
+                <tr class="even">
+                  <th>Brasil</th>
+                  <td>3</td>
+                  <td>5</td>
+                  <td>9</td>
+                </tr>
+              </table>
+            </div>
+            
+          </div>
+        </div>
+        
+      <div id="footer">
+        <a title="Home" href="index.html">Home</a> |
+        <a title="Notícias" href="noticias.html">Notícias</a> |
+        <a title="Medalhas" href="medalhas.html">Quadro de Medalhas</a> |
+        <a title="Galeria" href="galeria.html">Galeria de Fotos</a> |
+        <a title="Newsletter" href="newsletter.html">Newsletter</a>
+        <p>Larisse Garuti, Thaís Teixeira. Todos os Direitos Reservados.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
