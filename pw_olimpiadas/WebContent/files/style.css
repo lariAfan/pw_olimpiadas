@@ -301,3 +301,21 @@ div.news  div.box p {
 div.news  div.box.left {
   margin-right: 15px;
 }
+
+div#fotos {
+	padding:20px 10px 0;
+	text-align:center;	
+}
+
+div#fotos div.foto {
+	width: 200px;
+	overflow:hidden;
+	float:left;
+	margin: 0 0 35px 50px;
+}
+
+div#fotos div.foto img {
+	border:none;
+	height:138px;
+	width:200px;
+}
