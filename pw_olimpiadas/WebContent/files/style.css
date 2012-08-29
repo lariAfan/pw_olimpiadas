@@ -408,3 +408,22 @@ div#error label {
   display: block;
   line-height: 25px;
 }
+
+/* News Page */
+
+div.news ul {
+  list-style: inside;
+  margin-top: 15px;
+}
+
+div.news ul li {
+  line-height: 25px;
+}
+
+div.news ul li a {
+  color: #565656
+}
+
+div.news ul li a:hover {
+  color: #05B1F1;
+}
