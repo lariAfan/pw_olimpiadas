@@ -102,6 +102,10 @@ div#navbar ul li a {
   margin-right: 10px;
 }
 
+div#navbar ul li a:hover {
+  color: #04b1f1;
+}
+
 div#navbar ul li a.selected {
   color: #FFFFFF;
   background-color: #04b1f1;
@@ -431,3 +435,28 @@ div.news ul li a:hover {
 div.news ul li a img {
   margin-left: 3px;
 }
+
+/* Search */
+
+div.resultado-busca span {
+  font-weight: bold;
+}
+
+div.resultado-busca span.word {
+  color: #05B1F1; 
+}
+
+div.resultado-busca div.result {
+  margin: 15px 0 15px 0;
+}
+
+div.resultado-busca div.result a {
+  font-weight: bold;
+  color: #565656;
+}
+
+div.resultado-busca div.result a:hover {
+  color: #05B1F1;  
+}
+
+
