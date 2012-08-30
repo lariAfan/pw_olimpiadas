@@ -58,6 +58,14 @@ $(document).ready(function(){
     });    
   }
 
+  //Search
+  $('div#search a').click(function(){
+    if (!($('div#search input').val())) {
+      alert("Digite uma palavra para buscar!");
+      return false;
+    }
+  });
+
 });
 
 function isDate(txtDate)

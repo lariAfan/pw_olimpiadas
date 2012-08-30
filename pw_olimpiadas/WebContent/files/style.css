@@ -365,6 +365,7 @@ form#newsletter-form table tr td.data input {
 
 form#newsletter-form table tr td textarea {
   height: 100px;
+  resize: none;
 }
 
 form#newsletter-form td.button input {
