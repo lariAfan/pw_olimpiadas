@@ -427,3 +427,7 @@ div.news ul li a {
 div.news ul li a:hover {
   color: #05B1F1;
 }
+
+div.news ul li a img {
+  margin-left: 3px;
+}
