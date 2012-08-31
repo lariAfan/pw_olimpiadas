@@ -57,7 +57,37 @@ $(document).ready(function(){
       },
     });    
   }
+  
+  //Gallery
+  if ($("div.gallery").length > 0) {
+    $("#fotos a").lightBox();
+  }
+  
+  //Search Result
+  if ($("div.resultado-busca").length > 0) {  
+    $("span.word").html(querystring('q'));
+  }
 
+  //Search - coloca querystring na url
+  $("div#search a").click(function(){
+    if (!($("div#search input").val().trim())) {
+      alert("Digite uma palavra para buscar!");
+      return false;
+    }
+    else {
+      $("div#search a").attr("href", "busca.html?q=" + $("div#search input").val());      
+    }
+  });
+  
+  //Search - bloqueia o enter no input
+  $('div#search input').keypress(function(event){ 
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+      return false;
+    }
+    event.stopPropagation();  
+  });
+  
 });
 
 function isDate(txtDate)
@@ -91,4 +121,11 @@ function isDate(txtDate)
           return false;
   }
   return true;
+}
+
+function querystring(key) {
+  var re=new RegExp('(?:\\?|&)'+key+'=(.*?)(?=&|$)','gi');
+  var r=[], m;
+  while ((m=re.exec(document.location.search)) != null) r.push(m[1]);
+  return r;
 }

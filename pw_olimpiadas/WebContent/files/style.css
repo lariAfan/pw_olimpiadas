@@ -102,6 +102,10 @@ div#navbar ul li a {
   margin-right: 10px;
 }
 
+div#navbar ul li a:hover {
+  color: #04b1f1;
+}
+
 div#navbar ul li a.selected {
   color: #FFFFFF;
   background-color: #04b1f1;
@@ -206,6 +210,100 @@ div#right div.quadro-medalhas table tr td.none {
   background-color: #EBEBEB;
 }
 
+div#footer {
+  float: left;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: #05b1f1;
+  color: #FFFFFF;
+}
+
+div#footer a {
+  color: #FFFFFF;
+}
+
+div#footer p {
+  margin-top: 10px;
+}
+
+/* News - Home */
+
+div.news  div.box {
+  background-color: #ebebeb;
+  padding: 15px;
+  float: left;
+  width: 252px;
+  margin-bottom: 15px;
+}
+
+div.news  div.box  h2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+div.news  div.box p {
+  margin: 10px 0 10px 0;
+}
+
+div.news  div.box.left {
+  margin-right: 15px;
+}
+
+/* News Page */
+
+div.inner-news h2 {
+	margin-bottom: 20px;
+	font-size:15px;	
+}
+
+div.inner-news img {
+	border-right: 15px solid white;
+	border-bottom: 12px solid white;
+	float:left;	
+	max-width:250px;
+}
+
+div.inner-news p {
+	margin-bottom:15px;
+	line-height:20px;		
+}
+
+div.inner-news p.font {
+	font-style:italic;		
+}
+
+div.inner-news p.font a {
+	color: #02205F;
+	text-decoration:none;	
+}
+
+div.inner-news p.font a:hover {
+	text-decoration:underline;	
+}
+
+/* Photos Gallery Page */
+
+div.gallery div#fotos {
+	padding:20px 10px 0;
+	text-align:center;	
+}
+
+div.gallery div#fotos div.foto {
+	width: 200px;
+	overflow:hidden;
+	float:left;
+	margin: 0 0 35px 50px;
+}
+
+div.gallery div#fotos div.foto img {
+	border:none;
+	height:138px;
+	width:200px;
+}
+
+/* Medals Table Page */
+
 div.medalhas div.quadro-medalhas table {
   width: 100%;
   text-align: center;
@@ -231,103 +329,7 @@ div.medalhas div.quadro-medalhas table tr td.none {
   background-color: #FFF;
 }
 
-div.inner-news h2 {
-	margin-bottom: 20px;
-	font-size:15px;	
-}
-
-div.inner-news img {
-	border-right: 15px solid white;
-	border-bottom: 12px solid white;
-	float:left;	
-	max-width:250px;
-}
-
-div.inner-news p {
-	margin-bottom:15px;
-	line-height:20px;
-		
-}
-
-div.inner-news p.font {
-	font-style:italic;		
-}
-
-div.inner-news p.font a {
-	color: #02205F;
-	text-decoration:none;	
-}
-
-div.inner-news p.font a:hover {
-	text-decoration:underline;	
-}
-
-div#footer {
-  float: left;
-  width: 100%;
-  padding: 20px 0 20px 0;
-  text-align: center;
-  background-color: #05b1f1;
-  color: #FFFFFF;
-}
-
-div#footer a {
-  color: #FFFFFF;
-}
-
-div#footer p {
-  margin-top: 10px;
-}
-
-/* Search Page */
-
-div.resultado-busca p {
-	padding: 0 20px;
-	font-style:italic;
-	font-size:14px;	
-}
-
-/* News Page */
-
-div.news  div.box {
-  background-color: #ebebeb;
-  padding: 15px;
-  float: left;
-  width: 252px;
-  margin-bottom: 15px;
-}
-
-div.news  div.box  h2 {
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-
-div.news  div.box p {
-  margin: 10px 0 10px 0;
-}
-
-div.news  div.box.left {
-  margin-right: 15px;
-}
-
-div#fotos {
-	padding:20px 10px 0;
-	text-align:center;	
-}
-
-div#fotos div.foto {
-	width: 200px;
-	overflow:hidden;
-	float:left;
-	margin: 0 0 35px 50px;
-}
-
-div#fotos div.foto img {
-	border:none;
-	height:138px;
-	width:200px;
-}
-/* Newsletter */
+/* Newsletter Page */
 
 form#newsletter-form table {
   width: 490px;
@@ -369,6 +371,7 @@ form#newsletter-form table tr td.data input {
 
 form#newsletter-form table tr td textarea {
   height: 100px;
+  resize: none;
 }
 
 form#newsletter-form td.button input {
@@ -415,4 +418,50 @@ div#success {
 div#error label {
   display: block;
   line-height: 25px;
+}
+
+/* News List Page */
+
+div.news ul {
+  list-style: inside;
+  margin-top: 15px;
+}
+
+div.news ul li {
+  line-height: 25px;
+}
+
+div.news ul li a {
+  color: #565656
+}
+
+div.news ul li a:hover {
+  color: #05B1F1;
+}
+
+div.news ul li a img {
+  margin-left: 3px;
+}
+
+/* Search Page */
+
+div.resultado-busca span {
+  font-weight: bold;
+}
+
+div.resultado-busca span.word {
+  color: #05B1F1; 
+}
+
+div.resultado-busca div.result {
+  margin: 15px 0 15px 0;
+}
+
+div.resultado-busca div.result a {
+  font-weight: bold;
+  color: #565656;
+}
+
+div.resultado-busca div.result a:hover {
+  color: #05B1F1;  
 }
