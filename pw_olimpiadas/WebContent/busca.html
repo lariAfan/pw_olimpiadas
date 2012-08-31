@@ -33,21 +33,6 @@
 							Fotos</a></li>
 					<li><a title="Newsletter" href="newsletter.html">Newsletter</a></li>
 				</ul>
-				<script>
-					var qsParm = new Array();
-					function qs() {
-						var query = window.location.search.substring(1);
-						var parms = query.split('&');
-						for ( var i = 0; i < parms.length; i++) {
-							var pos = parms[i].indexOf('=');
-							if (pos > 0) {
-								var key = parms[i].substring(0, pos);
-								var val = parms[i].substring(pos + 1);
-								qsParm[key] = val;
-							}
-						}
-					}
-				</script>
 				<div id="search">
 					<form name="busca" action="busca.html" method="get">
 						<input type="text" /> <a title="Buscar" href="busca.html">Buscar</a>
@@ -55,16 +40,68 @@
 				</div>
 			</div>
 			<div id="content">
-				<ul id="slider">
-					<li><img title="" src="" /></li>
-					<li><img title="" src="" /></li>
-					<li><img title="" src="" /></li>
-				</ul>
-
 				<!-- Parte "dinâmica" -->
 
 				<div id="left" class="resultado-busca">
 					<h1>Resultado da Busca</h1>
+
+					<p>Não foram encontrados resultados com a palavra procurada,
+						mas seguem resultados que você possa achar interessante:</p>
+					<ul>
+						<li>
+							<a href="http://rederecord.r7.com/londres-2012/noticias/careta-de-ginasta-norte-americana-apos-perder-o-ouro-vira-hit-na-internet/">Careta de ginasta norte-americana após perder o ouro vira hit na internet</a>
+						</li>
+						<li>
+							<a href="http://rederecord.r7.com/londres-2012/noticias/rio-ainda-tem-longa-lista-de-obrigacoes-para-cumprir-ate-olimpiada-de-2016/">
+								Rio ainda tem longa lista de obrigações para cumprir até Olimpíada de 2016
+							</a>
+						</li>
+						<li>
+							<a href="noticia1.html">
+								Bandeira olímpica é levada ao Cristo e recepcionada por moradores locais
+							</a>
+						</li>
+						<li>
+							<a href="http://rederecord.r7.com/londres-2012/infograficos/mitos-olimpicos/">
+								Mitos olímpicos
+							</a>	
+						</li>
+						<li>
+							<a href="http://rederecord.r7.com/londres-2012/noticias/brasil-faz-campanha-historica-no-handebol-mas-falta-de-tradicao-pesa/">
+								Brasil faz campanha histórica no handebol, mas falta de tradição pesa
+							</a>
+						</li>
+						<li>
+							<a href="noticia2.html">
+								Judô confirma expectativas e bate recorde de medalhas nos Jogos de Londres 2012
+							</a>
+						</li>
+						<li>
+							<a href="noticia3.html">
+								Relembre as dez maiores decepções brasileiras nas Olimpíadas 2012
+							</a>
+						</li>
+						<li>
+							<a href="http://rederecord.r7.com/londres-2012/noticias/viradas-incriveis-marcam-o-volei-nas-olimpiadas-de-londres/">
+								Viradas incríveis marcaram o vôlei nas Olimpíadas de Londres
+							</a>
+						</li>
+						<li>
+							<a href="http://rederecord.r7.com/londres-2012/noticias/atletismo-brasileiro-repete-pior-campanha-nos-jogos-olimpicos/">
+								Atletismo brasileiro repete pior campanha nos Jogos Olímpicos
+							</a>
+						</li>
+						<li>
+							<a href="http://rederecord.r7.com/londres-2012/noticias/jose-roberto-guimaraes-cumpre-promessa-apos-ouro-e-fica-careca/">
+								José Roberto Guimarães cumpre promessa após ouro e fica careca
+							</a>
+						</li>
+						<li>
+							<a href="noticia4.html">
+								COB envia carta à Aiba e pede revisão da luta que deu prata a Esquiva
+							</a>
+						</li>
+					</ul>
 				</div>
 
 				<!-- Fim Parte "dinâmica" -->
