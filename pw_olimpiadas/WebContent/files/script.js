@@ -65,7 +65,7 @@ $(document).ready(function(){
   
   //Search Result
   if ($("div.resultado-busca").length > 0) {  
-    $("span.word").html(querystring('q'));
+    $("span.word").html(decodeURIComponent(querystring('q')));
   }
 
   //Search - coloca querystring na url
@@ -75,7 +75,7 @@ $(document).ready(function(){
       return false;
     }
     else {
-      $("div#search a").attr("href", "busca.html?q=" + $("div#search input").val());      
+      $("div#search a").attr("href", "busca.html?q=" + encodeURIComponent($("div#search input").val()));      
     }
   });
   
